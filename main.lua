@@ -30,8 +30,8 @@ end
 function love.draw()
 
 	if rain then
-		
-love.graphics.setBackgroundColor(100, 40, 0)
+		--love.graphics.setBackgroundColor(200, 100, 20)
+		love.graphics.setBackgroundColor(20,20,20)
 		love.graphics.draw(rain_system)
 	else
 
